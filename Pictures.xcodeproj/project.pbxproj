@@ -13,9 +13,28 @@
 		451CC30A27D88BDF0040946B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 451CC30827D88BDF0040946B /* LaunchScreen.storyboard */; };
 		451CC31227D891520040946B /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CC31127D891520040946B /* ItemCollectionViewCell.swift */; };
 		451CC31427D8AF9B0040946B /* CreateNewFolderAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CC31327D8AF9B0040946B /* CreateNewFolderAlert.swift */; };
-		451CC31627D8DCAB0040946B /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CC31527D8DCAB0040946B /* CollectionViewController.swift */; };
+		451CC31627D8DCAB0040946B /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CC31527D8DCAB0040946B /* FilesViewController.swift */; };
 		451CC31827DA238B0040946B /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CC31727DA238B0040946B /* PhotoViewController.swift */; };
 		451CC31A27DA3D880040946B /* DeleteItemAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451CC31927DA3D880040946B /* DeleteItemAlert.swift */; };
+		45A0CF0D2861F3EF00AC4B10 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF0C2861F3EF00AC4B10 /* TabBarController.swift */; };
+		45A0CF102861F46000AC4B10 /* LoginViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF0F2861F46000AC4B10 /* LoginViewController4.swift */; };
+		45A0CF142861F4DF00AC4B10 /* KeyChainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF132861F4DF00AC4B10 /* KeyChainManager.swift */; };
+		45A0CF172861F51800AC4B10 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF162861F51800AC4B10 /* UserModel.swift */; };
+		45A0CF1A2861F56100AC4B10 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF192861F56100AC4B10 /* StringExtensions.swift */; };
+		45A0CF1C2861F59800AC4B10 /* SpecialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF1B2861F59800AC4B10 /* SpecialTextField.swift */; };
+		45A0CF1E2861F5B700AC4B10 /* SpecialNameLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF1D2861F5B700AC4B10 /* SpecialNameLabel.swift */; };
+		45A0CF202861F5DA00AC4B10 /* IsValidPasswordLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF1F2861F5DA00AC4B10 /* IsValidPasswordLabel.swift */; };
+		45A0CF222861F5F800AC4B10 /* LogInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF212861F5F800AC4B10 /* LogInButton.swift */; };
+		45A0CF242861F95D00AC4B10 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF232861F95D00AC4B10 /* SettingsViewController.swift */; };
+		45A0CF2628634A8F00AC4B10 /* SortingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF2528634A8F00AC4B10 /* SortingModel.swift */; };
+		45A0CF2828636A7200AC4B10 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF2728636A7200AC4B10 /* UserDefaultsManager.swift */; };
+		45A0CF2A2863994200AC4B10 /* SortingBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF292863994200AC4B10 /* SortingBehavior.swift */; };
+		45A0CF2C2863A9E200AC4B10 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF2B2863A9E200AC4B10 /* LoginView.swift */; };
+		45A0CF2F2863AB7B00AC4B10 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF2E2863AB7B00AC4B10 /* LoginViewController.swift */; };
+		45A0CF312863AD2A00AC4B10 /* InitialPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF302863AD2A00AC4B10 /* InitialPasswordViewModel.swift */; };
+		45A0CF332864734300AC4B10 /* ChangePasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF322864734300AC4B10 /* ChangePasswordViewModel.swift */; };
+		45A0CF3728647ED400AC4B10 /* LoginViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF3628647ED400AC4B10 /* LoginViewModelProtocol.swift */; };
+		45A0CF3A286484EC00AC4B10 /* SimpleNoticeAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0CF39286484EC00AC4B10 /* SimpleNoticeAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +46,28 @@
 		451CC30B27D88BDF0040946B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		451CC31127D891520040946B /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		451CC31327D8AF9B0040946B /* CreateNewFolderAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewFolderAlert.swift; sourceTree = "<group>"; };
-		451CC31527D8DCAB0040946B /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		451CC31527D8DCAB0040946B /* FilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
 		451CC31727DA238B0040946B /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		451CC31927DA3D880040946B /* DeleteItemAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteItemAlert.swift; sourceTree = "<group>"; };
+		45A0CF0C2861F3EF00AC4B10 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		45A0CF0F2861F46000AC4B10 /* LoginViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController4.swift; sourceTree = "<group>"; };
+		45A0CF132861F4DF00AC4B10 /* KeyChainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainManager.swift; sourceTree = "<group>"; };
+		45A0CF162861F51800AC4B10 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		45A0CF192861F56100AC4B10 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		45A0CF1B2861F59800AC4B10 /* SpecialTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialTextField.swift; sourceTree = "<group>"; };
+		45A0CF1D2861F5B700AC4B10 /* SpecialNameLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialNameLabel.swift; sourceTree = "<group>"; };
+		45A0CF1F2861F5DA00AC4B10 /* IsValidPasswordLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValidPasswordLabel.swift; sourceTree = "<group>"; };
+		45A0CF212861F5F800AC4B10 /* LogInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInButton.swift; sourceTree = "<group>"; };
+		45A0CF232861F95D00AC4B10 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		45A0CF2528634A8F00AC4B10 /* SortingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingModel.swift; sourceTree = "<group>"; };
+		45A0CF2728636A7200AC4B10 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		45A0CF292863994200AC4B10 /* SortingBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingBehavior.swift; sourceTree = "<group>"; };
+		45A0CF2B2863A9E200AC4B10 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		45A0CF2E2863AB7B00AC4B10 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45A0CF302863AD2A00AC4B10 /* InitialPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialPasswordViewModel.swift; sourceTree = "<group>"; };
+		45A0CF322864734300AC4B10 /* ChangePasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewModel.swift; sourceTree = "<group>"; };
+		45A0CF3628647ED400AC4B10 /* LoginViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModelProtocol.swift; sourceTree = "<group>"; };
+		45A0CF39286484EC00AC4B10 /* SimpleNoticeAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNoticeAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				451CC2FC27D88BDC0040946B /* Pictures */,
+				45A0CF382864838700AC4B10 /* Trash */,
 				451CC2FB27D88BDC0040946B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,18 +101,116 @@
 		451CC2FC27D88BDC0040946B /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
-				451CC2FD27D88BDC0040946B /* AppDelegate.swift */,
-				451CC2FF27D88BDC0040946B /* SceneDelegate.swift */,
-				451CC31527D8DCAB0040946B /* CollectionViewController.swift */,
-				451CC31327D8AF9B0040946B /* CreateNewFolderAlert.swift */,
-				451CC31927DA3D880040946B /* DeleteItemAlert.swift */,
-				451CC31127D891520040946B /* ItemCollectionViewCell.swift */,
-				451CC31727DA238B0040946B /* PhotoViewController.swift */,
-				451CC30627D88BDF0040946B /* Assets.xcassets */,
-				451CC30827D88BDF0040946B /* LaunchScreen.storyboard */,
+				45A0CF092861F32700AC4B10 /* App */,
+				45A0CF152861F50000AC4B10 /* Models */,
+				45A0CF2D2863AB5900AC4B10 /* LoginModule */,
+				45A0CF112861F4A700AC4B10 /* CustomViews */,
+				45A0CF0E2861F43A00AC4B10 /* Controllers */,
+				45A0CF122861F4C900AC4B10 /* Manage */,
+				45A0CF182861F53F00AC4B10 /* Extensions */,
+				45A0CF0B2861F38300AC4B10 /* Alerts */,
+				45A0CF0A2861F34500AC4B10 /* Recources */,
 				451CC30B27D88BDF0040946B /* Info.plist */,
 			);
 			path = Pictures;
+			sourceTree = "<group>";
+		};
+		45A0CF092861F32700AC4B10 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				451CC2FD27D88BDC0040946B /* AppDelegate.swift */,
+				451CC2FF27D88BDC0040946B /* SceneDelegate.swift */,
+				451CC30827D88BDF0040946B /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		45A0CF0A2861F34500AC4B10 /* Recources */ = {
+			isa = PBXGroup;
+			children = (
+				451CC30627D88BDF0040946B /* Assets.xcassets */,
+			);
+			path = Recources;
+			sourceTree = "<group>";
+		};
+		45A0CF0B2861F38300AC4B10 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				451CC31327D8AF9B0040946B /* CreateNewFolderAlert.swift */,
+				451CC31927DA3D880040946B /* DeleteItemAlert.swift */,
+				45A0CF39286484EC00AC4B10 /* SimpleNoticeAlert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		45A0CF0E2861F43A00AC4B10 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				45A0CF0C2861F3EF00AC4B10 /* TabBarController.swift */,
+				451CC31527D8DCAB0040946B /* FilesViewController.swift */,
+				45A0CF232861F95D00AC4B10 /* SettingsViewController.swift */,
+				451CC31727DA238B0040946B /* PhotoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		45A0CF112861F4A700AC4B10 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				451CC31127D891520040946B /* ItemCollectionViewCell.swift */,
+				45A0CF1B2861F59800AC4B10 /* SpecialTextField.swift */,
+				45A0CF1D2861F5B700AC4B10 /* SpecialNameLabel.swift */,
+				45A0CF1F2861F5DA00AC4B10 /* IsValidPasswordLabel.swift */,
+				45A0CF212861F5F800AC4B10 /* LogInButton.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		45A0CF122861F4C900AC4B10 /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				45A0CF132861F4DF00AC4B10 /* KeyChainManager.swift */,
+				45A0CF2728636A7200AC4B10 /* UserDefaultsManager.swift */,
+				45A0CF292863994200AC4B10 /* SortingBehavior.swift */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		45A0CF152861F50000AC4B10 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				45A0CF162861F51800AC4B10 /* UserModel.swift */,
+				45A0CF2528634A8F00AC4B10 /* SortingModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45A0CF182861F53F00AC4B10 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				45A0CF192861F56100AC4B10 /* StringExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A0CF2D2863AB5900AC4B10 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				45A0CF2B2863A9E200AC4B10 /* LoginView.swift */,
+				45A0CF302863AD2A00AC4B10 /* InitialPasswordViewModel.swift */,
+				45A0CF322864734300AC4B10 /* ChangePasswordViewModel.swift */,
+				45A0CF2E2863AB7B00AC4B10 /* LoginViewController.swift */,
+				45A0CF3628647ED400AC4B10 /* LoginViewModelProtocol.swift */,
+			);
+			path = LoginModule;
+			sourceTree = "<group>";
+		};
+		45A0CF382864838700AC4B10 /* Trash */ = {
+			isa = PBXGroup;
+			children = (
+				45A0CF0F2861F46000AC4B10 /* LoginViewController4.swift */,
+			);
+			path = Trash;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,13 +283,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45A0CF1A2861F56100AC4B10 /* StringExtensions.swift in Sources */,
+				45A0CF222861F5F800AC4B10 /* LogInButton.swift in Sources */,
+				45A0CF1C2861F59800AC4B10 /* SpecialTextField.swift in Sources */,
+				45A0CF102861F46000AC4B10 /* LoginViewController4.swift in Sources */,
 				451CC31827DA238B0040946B /* PhotoViewController.swift in Sources */,
-				451CC31627D8DCAB0040946B /* CollectionViewController.swift in Sources */,
+				45A0CF2828636A7200AC4B10 /* UserDefaultsManager.swift in Sources */,
+				45A0CF2A2863994200AC4B10 /* SortingBehavior.swift in Sources */,
+				45A0CF332864734300AC4B10 /* ChangePasswordViewModel.swift in Sources */,
+				45A0CF0D2861F3EF00AC4B10 /* TabBarController.swift in Sources */,
+				451CC31627D8DCAB0040946B /* FilesViewController.swift in Sources */,
 				451CC31427D8AF9B0040946B /* CreateNewFolderAlert.swift in Sources */,
 				451CC31227D891520040946B /* ItemCollectionViewCell.swift in Sources */,
+				45A0CF2F2863AB7B00AC4B10 /* LoginViewController.swift in Sources */,
 				451CC2FE27D88BDC0040946B /* AppDelegate.swift in Sources */,
+				45A0CF312863AD2A00AC4B10 /* InitialPasswordViewModel.swift in Sources */,
+				45A0CF142861F4DF00AC4B10 /* KeyChainManager.swift in Sources */,
 				451CC31A27DA3D880040946B /* DeleteItemAlert.swift in Sources */,
+				45A0CF3728647ED400AC4B10 /* LoginViewModelProtocol.swift in Sources */,
+				45A0CF242861F95D00AC4B10 /* SettingsViewController.swift in Sources */,
+				45A0CF2C2863A9E200AC4B10 /* LoginView.swift in Sources */,
+				45A0CF1E2861F5B700AC4B10 /* SpecialNameLabel.swift in Sources */,
 				451CC30027D88BDC0040946B /* SceneDelegate.swift in Sources */,
+				45A0CF202861F5DA00AC4B10 /* IsValidPasswordLabel.swift in Sources */,
+				45A0CF3A286484EC00AC4B10 /* SimpleNoticeAlert.swift in Sources */,
+				45A0CF2628634A8F00AC4B10 /* SortingModel.swift in Sources */,
+				45A0CF172861F51800AC4B10 /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
