@@ -46,4 +46,8 @@ class IsValidPasswordLabel: UILabel {
     private func passwordIsValid(){
         text = nil
     }
+    
+    func resetConfigure(){
+        configure()
+    }
 }

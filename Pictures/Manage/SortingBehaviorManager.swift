@@ -1,5 +1,5 @@
 //
-//  SortingBehavior.swift
+//  SortingBehaviorManager.swift
 //  Pictures
 //
 //  Created by Миша on 22.06.2022.
@@ -7,9 +7,9 @@
 
 import Foundation
 
-class SortingBehavior {
+class SortingBehaviorManager {
     
-    static let shared = SortingBehavior()
+    static let shared = SortingBehaviorManager()
     
     var sortingModel: SortingModel {
         if let sorting = UserDefaultsManager.obtainSortingData() {

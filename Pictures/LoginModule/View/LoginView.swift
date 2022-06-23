@@ -24,7 +24,6 @@ class LoginView: UIView {
     
     let passwordTextField: SpecialTexField = {
         let textField = SpecialTexField()
-        textField.placeholder = "Enter password"
         return textField
     }()
     

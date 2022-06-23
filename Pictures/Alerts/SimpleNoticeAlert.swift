@@ -9,7 +9,7 @@ import UIKit
 
 extension UIViewController {
     
-    func showSimpleAlert(text: String){
+    func showSimpleAlert(text: String) {
         
         let alert = UIAlertController(title: "Error", message: text, preferredStyle: .alert)
         let ok = UIAlertAction(title: "OK", style: .default)

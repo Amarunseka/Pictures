@@ -56,7 +56,7 @@ class SettingsViewController: UIViewController {
             $0.translatesAutoresizingMaskIntoConstraints = false
         }
         
-        let sortingModel = SortingBehavior.shared.sortingModel
+        let sortingModel = SortingBehaviorManager.shared.sortingModel
         isSortedSwitch.isOn = sortingModel.isSorting
         segmentedControl.isEnabled = isSortedSwitch.isOn
         segmentedControl.selectedSegmentIndex = sortingModel.sortingMode

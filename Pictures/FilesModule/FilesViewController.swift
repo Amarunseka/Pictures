@@ -92,7 +92,7 @@ class FilesViewController: UIViewController {
     }
     
     private func sorting() {
-        let sortingModel = SortingBehavior.shared.sortingModel
+        let sortingModel = SortingBehaviorManager.shared.sortingModel
         
         if sortingModel.isSorting {
             content.sort {
