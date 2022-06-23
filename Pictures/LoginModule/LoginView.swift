@@ -42,6 +42,7 @@ class LoginView: UIView {
     // MARK: - Methods
     private func setupView(){
         backgroundColor = .gray
+        passwordTextField.isSecureTextEntry = true
         
         [loginLabel, passwordLabel, loginTextField, passwordTextField, actionButton, isValidPasswordLabel].forEach {
             addSubview($0)
