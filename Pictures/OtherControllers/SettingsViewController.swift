@@ -12,7 +12,7 @@ class SettingsViewController: UIViewController {
     // MARK: - initialise Elements
     private let isSortedLabel = SpecialNameLabel(text: "Sorting")
     
-    private let isSortedSwitch: UISwitch = {
+    private lazy var isSortedSwitch: UISwitch = {
         let isSortedSwitch = UISwitch()
         isSortedSwitch.addTarget(self, action: #selector(isSortedSwitchChange), for: .valueChanged)
         return isSortedSwitch
@@ -26,7 +26,7 @@ class SettingsViewController: UIViewController {
         return segmentedControl
     }()
     
-    private let changePasswordButton: UIButton = {
+    private lazy var changePasswordButton: UIButton = {
         let button = UIButton(type: .system)
         button.setTitle("CHANGE PASSWORD", for: .normal)
         button.backgroundColor = .systemBlue

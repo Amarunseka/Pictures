@@ -20,7 +20,7 @@ class PhotoViewController: UINavigationController {
         return view
     }()
     
-    private let crossCloseWindowButton: UIButton = {
+    private lazy var crossCloseWindowButton: UIButton = {
         let button = UIButton()
         button.backgroundColor = .clear
         button.setBackgroundImage(UIImage(systemName: "multiply.circle"), for: .normal)
